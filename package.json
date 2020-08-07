@@ -1,0 +1,23 @@
+{
+  "name": "Serverless-AWS-ETL",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hdev7/Serverless-ETL-AWS.git"
+  },
+  "keywords": [],
+  "author": "Hemanth Devarapati <hemanthsaid7@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hdev7/Serverless-ETL-AWS/issues"
+  },
+  "homepage": "https://github.com/hdev7/Serverless-ETL-AWS#readme",
+  "devDependencies": {
+    "serverless-python-requirements": "^5.1.0"
+  }
+}
