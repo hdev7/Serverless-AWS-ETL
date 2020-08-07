@@ -51,7 +51,7 @@ npm init --yes
 ```
 npm init --yes
 ```
-- Deployment and invocation (Make sure lambda has access to S3)
+- Deployment and invocation (Make sure lambda has access to S3): cl_crawler is the arbitary function name in serverless.yml
 ```
 sls deploy
 sls invoke -f cl_crawler --log
