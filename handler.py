@@ -13,15 +13,6 @@ date = datetime.strftime(dt, '%Y_%m_%d')
 # Set up S3 resource
 s3 = boto3.resource("s3")
 
-#TOREMOVE:
-os.environ['S3_INPUT_BUCKET'] = 'mynameisbilla'
-os.environ['S3_OUTPUT_BUCKET'] = 'mynameisbilla'
-os.environ['S3_INPUT_FOLDER_PATH'] = ''
-os.environ['NEIGHBORHOODS_FILENAME'] = 'neighborhoods.txt'
-os.environ['S3_OUTPUT_FOLDER_PATH'] = 'collect_here'
-
-
-
 # Define input and output buckets and file names
 input_bucket = os.getenv("S3_INPUT_BUCKET")
 input_folder_path = os.getenv("S3_INPUT_FOLDER_PATH")
