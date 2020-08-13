@@ -48,9 +48,7 @@ pip freeze > requirements.txt
 npm init --yes
 ```
 - Edit serverless.yml as per the repo. Bundling packages
-```
-npm init --yes
-```
+
 - Deployment and invocation (Make sure lambda has access to S3): cl_crawler is the arbitary function name in serverless.yml
 ```
 sls deploy
